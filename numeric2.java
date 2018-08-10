@@ -11,13 +11,13 @@ class Ideone
 	Scanner sc=new Scanner(System.in);
 		
 		String str=sc.next();
-			char a;
+			char b;
 		int i;
 		int f=0;
 		for(i=0;i<str.length();i++)
 		{
-			a=str.charAt(i);
-			if(Character.isLetter(a))
+			b=str.charAt(i);
+			if(Character.isLetter(b))
 			{
 				f=1;
 			}
